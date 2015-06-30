@@ -1,0 +1,15 @@
+{
+  "name": "batman-syntax",
+  "theme": "syntax",
+  "version": "0.1.0",
+  "description": "A color scheme inspired by the World's Greatest Detective",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/ifcanduela/atom-batman-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  }
+}
