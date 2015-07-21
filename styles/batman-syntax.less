@@ -25,6 +25,16 @@
     }
 }
 
+.css {
+    &.class {
+        color: @batman_purple;
+    }
+
+    &.pseudo-element {
+        color: @batman_apple;
+    }
+}
+
 .entity {
     &.name.function {
         color: @syntax-color-function;
@@ -44,18 +54,18 @@
         color: @batman_scrubs;
     }
 
-    &.other {
-        &.attribute-name {
-            color: @gray_50;
+    &.id {
+        color: @batman_emerald;
+    }
 
-            &.id {
-                color: @batman_emerald;
-            }
-        }
+    &.inherited-class {
+        color: @batman_cream;
+    }
+}
 
-        &.inherited-class {
-            color: @batman_cream;
-        }
+.html {
+    &.punctuation.definition.tag {
+        color: @batman_scrubs;
     }
 }
 
